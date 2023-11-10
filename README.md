@@ -1,0 +1,2 @@
+# mystore
+shopify store development
