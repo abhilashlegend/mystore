@@ -4,8 +4,12 @@
         {{ 'style.css' | asset_url | stylesheet_tag }}
     </head>
     <body>
+        
         {% render 'header' %}
-        {{ content_for_layout }}
+            <main class="content">
+                {{ content_for_layout }}
+            </main>
         {{ 'app.js' | asset_url | script_tag }}
+        
     </body>
 </html>
