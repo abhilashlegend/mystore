@@ -1,0 +1,6 @@
+body { background-image: url('bg.jpg'); }
+.navigation { list-style: none; margin: 0; padding: 0; display: flex; padding: 1.5rem 0; background-color: turquoise; }
+.menu { width: 150px; text-align: center; cursor: pointer; }
+.menu a { text-decoration: none; color: black; width: 150px; }
+.menu:hover {  background-color: brown; color: azure !important; width: 150px; }
+.menu a:hover { color: azure; }
