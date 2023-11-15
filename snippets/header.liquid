@@ -6,5 +6,9 @@
                 <li class="menu">{{ link.title | link_to: link.url }}            
             {% endfor %}
         </ul>
+        <form action="/search">
+            <input type="search" name="q" />
+            <button type="submit">Search</button>
+        </form>
     </nav>
 </header>
